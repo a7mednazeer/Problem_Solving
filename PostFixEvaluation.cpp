@@ -1,4 +1,3 @@
-
 #include<iostream>
 #include<stack>
 #include<string>
@@ -78,4 +77,3 @@ main() {
 
 	cout<<"Result = "<< result << '\n';
 }
-
