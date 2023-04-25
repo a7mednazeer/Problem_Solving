@@ -3,17 +3,17 @@ using namespace std;
 
     struct Node {
         int data;
-        Node *next;
+        Node * next;
     };
 
-    Node *newNode(int data) {
-        Node *temp = new Node;
+    Node * newNode(int data) {
+        Node * temp = new Node;
         temp->next = temp;
         temp->data = data;
         return temp;
     }
-    Node *head;
-    Node *tail;
+    Node * head;
+    Node * tail;
     
     
     void Persons(int n) {
@@ -27,8 +27,8 @@ using namespace std;
     }
 
     void Elimination(int x) {
-        Node *ptr1 = head;
-        Node *ptr2 = head;
+        Node * ptr1 = head;
+        Node * ptr2 = head;
         
         while (ptr1->next != ptr1) {
             int count = 1;
