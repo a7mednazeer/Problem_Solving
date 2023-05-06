@@ -3,8 +3,7 @@ using namespace std;
 int main()
 {
     int t;
-    cin >> t;
-    
+    cin >> t;    
     int x = 0;
      while (t--) {
         string str;
