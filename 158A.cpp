@@ -1,4 +1,3 @@
-// Next Round
 #include <bits/stdc++.h>
 using namespace std;
 
