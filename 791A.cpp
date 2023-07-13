@@ -1,17 +1,15 @@
-// 791A. Bear and Big Brother
 #include<iostream>
 using namespace std;
-
-main() {
-	int a, b, years = 0;
-	cin >> a >> b;
-	for(int i = 0; i < 100; i++) {
+ 
+int main() {
+	short a, b, count = 0;
+	cin>> a >> b;
+	for(short i = 0; i < 10; i++) {
 	    if(a < b || a == b) {
 	        a *= 3;
 	        b *= 2;
-	        years++;
+	        count++;
 	    }
 	}
-	cout << years;	
+	cout<< count <<'\n';
 }
-
